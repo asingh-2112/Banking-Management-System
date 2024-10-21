@@ -30,13 +30,17 @@ The project implements file management, locking mechanisms, and process synchron
 1. Open a terminal window.
 2. Navigate to the project directory.
 3. Compile the server code using the following command:
-
-   gcc server.c -lcrypt -o server
+   
+```bash
+gcc server.c -lcrypt -o server
+```
 
 The -lcrypt flag is used to include the cryptographic library for password management.
 Once compiled, run the server with the following command:
 
+```bash
 ./server
+```
 
 Step 2: Connect a Client
 Open another terminal window.
@@ -45,12 +49,15 @@ Navigate to the project directory.
 
 Compile the client code using the following command:
 
+```bash
 gcc client.c -o client
+```
 
 Connect to the server by running the client:
 
+```bash
 ./client
-
+```
 
 Step 3: Interact with the System
 Once both the server and client are running, you can interact with the banking system from the client side. Depending on your role (customer, employee, manager, or admin), you will have different options available.
@@ -61,6 +68,7 @@ Each client connects in its own terminal.
 Use system calls wherever possible to handle file operations, locks, and semaphores for synchronization.
 Ensure you manage proper user sessions by allowing only one active session per user.
 Project Structure:
+```
 BankingManagementSystem/
 ├── server.c        # Contains the server-side logic
 ├── client.c        # Contains the client-side logic
@@ -71,3 +79,4 @@ BankingManagementSystem/
 ├── FEEDBACK        # Handles FEEDBACK processing
 ├── TRANSACTION     # Handles TRANSACTION logging
 └── README.md       # This readme file
+```
