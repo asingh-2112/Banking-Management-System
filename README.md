@@ -62,8 +62,8 @@ Connect to the server by running the client:
 Step 3: Login as Admin
 Upon starting the system, you need to log in with predefined admin credentials before proceeding:
 
-Admin ID: admin-1
-Password: Abhishek
+<strong>Admin ID: admin-1</strong><br>
+<strong>Password: Abhishek</strong>
 
 Step 4: Interact with the System
 Once both the server and client are running, you can interact with the banking system from the client side. Depending on your role (customer, employee, manager, or admin), you will have different options available.
